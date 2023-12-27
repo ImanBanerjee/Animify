@@ -1,0 +1,215 @@
+:root {
+    --animation-transition: 0.4s ease-out;
+    --half-animation-transition: 0.2s ease-out;
+}
+
+/* LOADING PAGE */
+
+.loading-page-animation {
+    animation: loadingPageAnimation 1s ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes loadingPageAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.loading-page-init-bar-animation {
+    animation: loadingPageInitBarAnimation var(--animation-transition);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loadingPageInitBarAnimation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+.loading-page-bar-animation {
+    animation: loadingPageBarAnimation var(--animation-transition);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loadingPageBarAnimation {
+    0% {
+        width: 30%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/* DOM ELEMENTS */
+
+.fade-in {
+    opacity: 0;
+}
+
+.show-opacity {
+    animation: showOpacityAnimation var(--half-animation-transition);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes showOpacityAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hide-opacity {
+    animation: hideOpacityAnimation var(--half-animation-transition);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hideOpacityAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.show {
+    animation: showAnimation var(--animation-transition);
+    animation-iteration-count: 1;
+}
+
+@keyframes showAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.show-overlay-delay {
+    animation: showOverlayDelayAnimation var(--half-animation-transition);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* animation-delay: 0.5s; */
+}
+
+@keyframes showOverlayDelayAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.show-page {
+    animation: showPageAnimation var(--animation-transition);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes showPageAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hide-page {
+    animation: hidePageAnimation var(--animation-transition);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hidePageAnimation {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+}
+
+.show-page-shadow-background {
+    animation: showPageShadowBackgroundAnimation var(--animation-transition);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes showPageShadowBackgroundAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hide-page-shadow-background {
+    animation: hidePageShadowBackgroundAnimation var(--animation-transition);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hidePageShadowBackgroundAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.user-list-warn-on {
+    animation: userListWarnAnimationOn 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes userListWarnAnimationOn {
+    0% {
+        border: 2px solid var(--font-3);
+    }
+    100% {
+        border: 2px solid var(--color-warning);
+    }
+}
+
+.user-list-warn-off {
+    animation: userListWarnAnimationOff var(--animation-transition);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes userListWarnAnimationOff {
+    0% {
+        border: 2px solid var(--color-warning);
+    }
+    100% {
+        border: 2px solid var(--font-3);
+    }
+}
