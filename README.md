@@ -14,6 +14,15 @@ Join our discord community for more updates and bug reports
 
 [Discord - Server](https://dsc.gg/animify)
 
+
+# Screenshots
+
+![Screenshot](https://media.discordapp.net/attachments/841882095227502632/1189490424704938045/image.png?ex=659e5a48&is=658be548&hm=43cee8eff0928f173a974e3c13710646d4877c58f0bb3dc98018a858eccdd28b&=&format=webp&quality=lossless&width=1258&height=671)
+
+![Screenshot](https://media.discordapp.net/attachments/841882095227502632/1189490586944802906/image.png?ex=659e5a6f&is=658be56f&hm=c544487e77f50eb9739df89018d7944cc2ab6e91e471ba2691e4c12736a4096c&=&format=webp&quality=lossless&width=1256&height=671)
+
+![Screenshot](https://media.discordapp.net/attachments/841882095227502632/1189490571195199508/image.png?ex=659e5a6b&is=658be56b&hm=9ecd6b360dba37127586f27bb350f26212f8f2343baccd8f12e5f614f381a60c&=&format=webp&quality=lossless&width=1260&height=671)
+
 # Download
 
 You can download the MSI installer for Animify from the following link:
