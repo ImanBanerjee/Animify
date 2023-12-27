@@ -1,12 +1,14 @@
 <p align="center">
-    <img width="100px" src="https://github.com/ImanBanerjee/Animify/blob/main/assets/img/icon/icon-nobg.png"/>
+    <img width="100px" src="https://media.discordapp.net/attachments/841882095227502632/1189541317424971776/animify.png?ex=659e89ae&is=658c14ae&hm=b48472f9fc9fb83f18994ebcd4b872f93af0c81889afc69623e9b1d38acdaa1a&=&format=webp&quality=lossless"/>
     <h1 align="center">Animify</h1>
 </p>
 
 <p align="center"><b>Animify: Free Anime, No Ads.</b></p>
 
-**Welcome to the Animify repository! Animify is a free, ad-free anime streaming app that allows users to explore a vast library of their favorite anime series and movies. Below, you'll find important information about the app, including how to download it, its features, and legal information.**
+<p align="center"><b>Welcome to the Animify repository! Animify is a free, ad-free anime streaming app that allows users to explore a vast library of their favorite anime series and movies. Below, you'll find important information about the app, including how to download it, its features, and legal information.</b></p>
 
+<br>
+<br>
 
 # Community
 
