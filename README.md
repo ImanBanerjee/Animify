@@ -81,5 +81,5 @@ Animify is a user-friendly anime streaming app that offers the following feature
 # License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/ImanBanerjee/Animify/blob/main/LICENSE) for details.
 
-Feel free to contribute, report issues, or suggest improvements. Happy anime streaming with Animify!
+Feel free to contribute, report issues, or suggest improvements. Happy anime streaming with Animify! Test
 
