@@ -1,6 +1,6 @@
 {
   "name": "animify-beta",
-  "version": "0.2.0",
+  "version": "2.1.1",
   "description": "Anime streaming client for PC",
   "main": "src/main.js",
   "scripts": {
