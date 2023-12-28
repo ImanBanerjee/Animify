@@ -110,7 +110,7 @@ ipcMain.on('load-issues-url', () => {
 
 app.whenReady().then(() => {
     createWindow()
-    app.setAsDefaultProtocolClient("animify")
+    app.setAsDefaultProtocolClient("lexo")
 
     app.on('activate', () => {
         if (BrowserWindow.getAllWindows().length === 0) createWindow()

@@ -1303,7 +1303,7 @@ main .featured .featured-img img {
         .list-editor-page .content .input-container select,
         .list-editor-page .content .input-container input {
             width: 100%;
-            color: var(--font-3);
+            color: #2564f7;
             font-size: 1.2rem;
             outline: none;
             border: none;
