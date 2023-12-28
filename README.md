@@ -29,7 +29,7 @@ Join our discord community for more updates and bug reports
 
 You can download the MSI installer for Animify from the following link:
 
-[Download Animify](https://github.com/ImanBanerjee/Animify/releases/download/0.2.1/Animify.msi)
+[Download Animify](https://github.com/ImanBanerjee/Animify/releases/download/2.1.1/Animify.msi)
 
 **OR**
 
